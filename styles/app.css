@@ -1,14 +1,12 @@
 * {
-    margin:0px;
-    padding:0px;
-    border: 0px;
-    font: inherit;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
 }
 
 .sb-show-main.sb-main-padded {
-    margin: 0;
-    padding: 0;
-    display: block;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
-
-

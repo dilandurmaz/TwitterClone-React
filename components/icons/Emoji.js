@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgEmoji(props) {
   return (
@@ -19,7 +19,7 @@ function SvgEmoji(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgEmoji;
+export default SvgEmoji

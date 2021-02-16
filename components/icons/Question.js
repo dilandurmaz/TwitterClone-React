@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgQuestion(props) {
   return (
@@ -15,7 +15,7 @@ function SvgQuestion(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgQuestion;
+export default SvgQuestion

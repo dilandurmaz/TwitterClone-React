@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgMedia(props) {
   return (
@@ -19,7 +19,7 @@ function SvgMedia(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgMedia;
+export default SvgMedia

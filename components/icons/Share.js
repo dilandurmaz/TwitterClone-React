@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgShare(props) {
   return (
@@ -19,7 +19,7 @@ function SvgShare(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgShare;
+export default SvgShare

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgArrowBottom(props) {
   return (
@@ -15,7 +15,7 @@ function SvgArrowBottom(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgArrowBottom;
+export default SvgArrowBottom
