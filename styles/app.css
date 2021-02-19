@@ -1,12 +1,16 @@
+@import 'variable.css';
+
 * {
   margin: 0px;
   padding: 0px;
   border: 0px;
   font: inherit;
 }
-
-.sb-show-main.sb-main-padded {
-  margin: 0;
-  padding: 0;
-  display: block;
+html {
+  font-size: 15px;
+}
+body {
+  font-size:1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: var(--c-primary);
 }

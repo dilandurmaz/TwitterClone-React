@@ -1,62 +1,69 @@
 import React from 'react'
 
-import NavButton from './navigation-button'
-import { Twitter, Home, Explore , Notification , Messages ,Bookmark,Lists,Profile,More} from './icons'
+import NavigationButton from './navigation-button'
+
+import TitleBold from './title-bold'
+
+import {
+  Twitter,
+  Home,
+  Explore,
+  Notification,
+  Messages,
+  Bookmark,
+  Lists,
+  Profile,
+  More
+} from './icons'
 
 import styles from './navigation.module.css'
 
-function Navigation() {
+function Navigation({ selectedKey }) {
   return (
     <nav className={styles.nav}>
-      <NavButton>
+      <NavigationButton>
         <Twitter />
-      </NavButton>
+      </NavigationButton>
 
-
-      <NavButton>
+      <NavigationButton selected={selectedKey === 'home'}>
         <Home />
-        <span>Home</span>
-      </NavButton>
+        <TitleBold>Home</TitleBold>
+      </NavigationButton>
 
+      <NavigationButton selected={selectedKey === 'explore'}>
+        <Explore />
+        <TitleBold>Explore</TitleBold>
+      </NavigationButton>
 
-      <NavButton>
-          <Explore />
-          <span>Explore</span>
+      <NavigationButton notify={17} selected={selectedKey === 'notification'}>
+        <Notification />
+        <TitleBold>Notification</TitleBold>
+      </NavigationButton>
 
-      </NavButton>
+      <NavigationButton selected={selectedKey === 'messages'}>
+        <Messages />
+        <TitleBold>Messages</TitleBold>
+      </NavigationButton>
 
-      <NavButton>
-          <Notification/>
-          <span>Notification</span>
-      </NavButton>
+      <NavigationButton selected={selectedKey === 'bookmark'}>
+        <Bookmark />
+        <TitleBold>Bookmark</TitleBold>
+      </NavigationButton>
 
+      <NavigationButton selected={selectedKey === 'lists'}>
+        <Lists />
+        <TitleBold>Lists</TitleBold>
+      </NavigationButton>
 
-       <NavButton>
-           <Messages/>
-           <span>Messages</span>
-       </NavButton>
+      <NavigationButton selected={selectedKey === 'profile'}>
+        <Profile />
+        <TitleBold>Profile</TitleBold>
+      </NavigationButton>
 
-        <NavButton>
-            <Bookmark/>
-            <span>Bookmark</span>
-        </NavButton>
-
-        <NavButton>
-            <Lists/>
-            <span>Lists</span>
-        </NavButton>
-
-        <NavButton>
-            <Profile/>
-            <span>Profile</span>
-        </NavButton>
-
-        <NavButton>
-            <More/>
-            <span>More</span>
-        </NavButton>
-
-
+      <NavigationButton selected={selectedKey === 'more'}>
+        <More />
+        <TitleBold>More</TitleBold>
+      </NavigationButton>
     </nav>
   )
 }
