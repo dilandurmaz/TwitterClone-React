@@ -3,12 +3,15 @@ import cn from 'classnames'
 
 import styles from './stack.module.css'
 
-function Stack({gap=10,column = false,children }) {
-    return(
-        <div className={cn([styles.stack,column && styles.column])} style={{"--gap":`${gap}px`}}>
-            {children}</div>
-
-    )
+function Stack({ gap = 10, column = false, children }) {
+  return (
+    <div
+      className={cn([styles.stack, column && styles.column])}
+      style={{ '--gap': `${gap}px` }}
+    >
+      {children}
+    </div>
+  )
 }
 
 export default Stack

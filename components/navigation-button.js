@@ -4,14 +4,14 @@ import Button from './button'
 
 import styles from './navigation-button.module.css'
 
-function NavigationButton({notify,selected, children, ...props }) {
+function NavigationButton({ notify, selected, children, ...props }) {
   return (
     <Button
       className={cn(styles.navButton, selected && styles.navButtonSelected)}
       {...props}
     >
+      {notify > 0 && <span className={styles.notify}>{notify}</span>}
       {children}
-      {notify && <span className={styles.notify}>{notify}</span>}
 
     </Button>
   )

@@ -15,18 +15,17 @@
   color: var(--c-theme);
 }
 
-.notify{
+.notify {
   position: absolute;
-  left:20px;
-  top:5px;
+  left: 20px;
+  top: 5px;
   padding-left: 6px;
-  padding-right:6px;
+  padding-right: 6px;
   border-radius: 17px;
   display: flex;
   align-items: center;
-  background-color:var(--c-theme);
-  color:var(--c-text-color);
-  font-size:11px;
-  border:1px solid var(--c-primary);
-
+  background-color: var(--c-theme);
+  color: var(--c-text-color);
+  font-size: 11px;
+  border: 1px solid var(--c-primary);
 }

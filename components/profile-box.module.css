@@ -1,24 +1,24 @@
-.box{
-    padding:10px;
+.box {
+  padding: 10px;
 
-    &:hover {
-      color:var(--c-text-color);
-     }
+  &:hover {
+    color: var(--c-text-color);
+  }
 }
 
-.body{
-    margin-left: 10px;
-    margin-right: 20px;
+.body {
+  margin-left: 10px;
+  margin-right: 20px;
 
-    * {
-        display: block;
-    }
+  * {
+    display: block;
+  }
 }
 
 .slug {
-    color:var(--c-gray);
+  color: var(--c-gray);
 }
 
 .icon {
-    margin-left: auto;
+  margin-left: auto;
 }
