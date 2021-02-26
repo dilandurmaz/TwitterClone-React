@@ -12,7 +12,7 @@
         grid-template-columns:auto 1fr 300px;
     }
     @media (--d) {
-        max-width: 1530px;
+        max-width: 1270px;
 
     }
 
