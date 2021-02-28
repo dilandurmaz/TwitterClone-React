@@ -5,10 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/.next" />
-      <excludeFolder url="file://$MODULE_DIR$" />
     </content>
-    <content url="file://$MODULE_DIR$/.next" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
