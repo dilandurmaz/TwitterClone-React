@@ -5,6 +5,7 @@ import styles from './col-sidebar.module.css'
 import Navigation from './navigation'
 import ThemeButton from './theme-button'
 import ProfileBox from './profile-box'
+import TweetModal from './tweet-modal'
 
 function Layout({flat} ) {
     return (
@@ -17,6 +18,7 @@ function Layout({flat} ) {
                 </ThemeButton>
             </div>
 
+            <TweetModal/>
 
             <div className={styles.profile}>
                 <ProfileBox flat={flat}/>
